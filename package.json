@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "name": "sharq-al-delta",
+  "description": "Sharq Al-Delta Website - Front-end",
+  "author": "shawqicauses <shawqicauses@outlook.com>",
+  "license": "ISC",
+  "scripts": {
+    "sass:watch": "sass sass/main.scss:dist/main.css --watch --no-source-map",
+    "sass:build": "sass sass/main.scss:dist/main.css --no-source-map"
+  },
+  "devDependencies": {
+    "eslint": "8.24.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-react-app": "7.0.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.31.8",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "prettier": "2.7.1",
+    "sass": "1.55.0"
+  },
+  "dependencies": {
+    "bootstrap": "5.2.2"
+  }
+}
